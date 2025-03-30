@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "stream-chat": "^8.57.6",
+    "stream-chat-react": "^12.13.1",
+    "universal-cookie": "^8.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
