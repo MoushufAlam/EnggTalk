@@ -5,7 +5,7 @@ export const CloseCreateChannel = ({ setIsCreating, setIsEditing }) => (
     width='32'
     height='32'
     viewBox='0 0 32 32'
-    fill='none'
+CloseCreateChannel    fill='none'
     xmlns='http://www.w3.org/2000/svg'
     onClick={() => {
       if (setIsCreating) setIsCreating(false);
