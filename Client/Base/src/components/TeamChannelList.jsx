@@ -13,7 +13,6 @@ function TeamChannelList({children,error=false,loading,type}) {
             </div>
         ) : null
     }
-
     if(loading){
         return(
             <div className="team-channel-list">
