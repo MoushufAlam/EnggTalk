@@ -30,8 +30,8 @@ function TeamChannelList({
             <div className="team-channel-list">
                 <p className="team-channel-list__message loading">
                     {type === 'team'
-                        ? 'Channels'
-                        : 'Messages'}
+                        ? 'Channels '
+                        : 'Messages '}
                     loading...
                 </p>
             </div>
