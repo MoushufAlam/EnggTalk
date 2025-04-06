@@ -203,6 +203,11 @@
     margin-bottom: 8px;
   }
   
+  .str-chat__channel-list {
+    background-color: #005fff !important;
+    color: white !important;
+  }
+
   .str-chat-channel {
     height: 100%;
   }
@@ -220,7 +225,7 @@
   }
   
   .str-chat__message-notification {
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     cursor: pointer;
   }
   
@@ -300,6 +305,8 @@
   .str-chat__thread {
     z-index: 1;
   }
+  
+
   
   .str-chat__thread-list .str-chat__message-team {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -648,10 +655,13 @@
     align-items: center;
     justify-content: flex-end;
     border-bottom-right-radius: 16px;
-  
+    
     padding: 0px 10px;
   }
   
+
+
+
   .create-channel__button-wrapper p {
     background: var(--primary-color);
     font-family: Helvetica Neue, sans-serif;
@@ -744,7 +754,8 @@
   .user-item__invite-empty {
     height: 28px;
     width: 28px;
-    background: #f7f6f8;
+    /* background: #f7f6f8; */
+    background: grey;
     border: 1px solid #dedddf;
     border-radius: 14px;
     box-sizing: border-box;
@@ -949,11 +960,13 @@
     height: 115px;
   }
   
+  
   .team-channel-list__header {
     padding: 0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
   }
   
   .team-channel-list__header svg {
@@ -965,7 +978,6 @@
     font-size: 13px;
     line-height: 16px;
     height: 16px;
-    color: rgba(255, 255, 255, 0.66);
     margin-bottom: 10px;
   }
   
