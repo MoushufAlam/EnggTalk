@@ -3,9 +3,9 @@ const cors = require('cors');
 
 const app = express();
 
-const authRoutes = require('./routes/auth')
+const authRoutes = require('../routes/auth')
+const serverless = require('serverless-http')
 
-const PORT = process.env.PORT || 5000;
 
 require('dotenv').config();
 
@@ -44,4 +44,5 @@ app.post('/',(req,res)=> {
 
 app.use('/auth', authRoutes)
 
-app.listen(PORT, () => console.log(`Server running on ${PORT}`));
+module.exports = app
+module.exports.handler = serverless(app)
